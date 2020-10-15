@@ -1,0 +1,2 @@
+# Checkers
+School project
