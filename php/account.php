@@ -64,7 +64,7 @@
 		}
 		
 		$reCaptchaApi = 'https://www.google.com/recaptcha/api/siteverify';
-		$post = array('secret' => '6LcnoXMUAAAAAC4u8r-kYoz60K1KKiD7tidP0g56', 'response' => $_POST['g-recaptcha-response']);
+		$post = array('secret' => '', 'response' => $_POST['g-recaptcha-response']);
 		$options = array(
 			'http' => array(
 				'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
